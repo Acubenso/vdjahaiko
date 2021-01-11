@@ -33,20 +33,28 @@
 
 
     .product {
-    	justify-content: space-between;
-    	width: 100%;
-		height: 30vmax;
+        justify-content: space-between;
+        width: 100%;
+        height: 30vmax;
         padding: 2vmax 2vmax;
         margin: 3vmax;
-
-
     }
-/*
-    .product:nth-of-type(3n) {
-        margin-right: 2vw;
-    }*/
 
+    #modal {
+        width: 30vw;
+        top: 20vh;
+    }
 
+    .submit {
+        height: 2.5vmax;
+    }
+
+    /*=========================================== Search ====================================*/
+    #search_panel input {
+    	font-size: 1vmax;
+        height: 2.16vmax;
+        padding-left: 1vmax;
+    }
 }
 
 /*========================= 0px - 575px ============================*/
