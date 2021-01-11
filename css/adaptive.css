@@ -15,11 +15,12 @@
     }
 
     #sign svg {
-        width: 1vmax;
+    	display: none;/*
+        width: 5vmax;
         height: 1vmax;
         fill: #7e7e7e;
         margin-right: 0.25vmax;
-    }
+    */}
 
     #location,
     #currency {
@@ -41,12 +42,23 @@
     }
 
     #modal {
-        width: 30vw;
+        width: 40vw;
+        height: 50vh;
         top: 20vh;
     }
 
+    #content_modal {
+    	width: 40vw;
+    	height: 60vh;
+    	padding: 8vmax;
+    }
+
+    #content_modal input {
+    	height: 3vh;
+    }
+
     .submit {
-        height: 2.5vmax;
+        height: 3vmax;
     }
 
     /*=========================================== Search ====================================*/

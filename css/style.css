@@ -301,12 +301,9 @@ main {
 	margin-right: 1.66vw;
 }
 
-@media screen and (min-width: 768px) {
-	.product:nth-of-type(3n) {
+.product:nth-of-type(3n) {
 	margin-right: 0;
-	}
-}	
-
+}
 
 .product:hover {
 	transform: scale(1.05);
